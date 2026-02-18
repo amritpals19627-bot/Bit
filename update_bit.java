@@ -7,7 +7,9 @@ public class update_bit {
         System.out.println("enter the position");
 
         int position = sc.nextInt();
-        int bitwise = 1<<position;
+        int bitwise = 1<<posi;
+
+        // just checking
 
         // get bit
         int getbit = bitwise & n;
